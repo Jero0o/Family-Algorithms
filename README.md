@@ -41,9 +41,69 @@ Now that the common ancestor is found, the depth from the person up to the commo
  //	let personsA = []
  // let personsB = []
  
+//defined commonancestor
+ // let commonAncestor
+ 
+//Make function setup()
+ 
 //make a randomizer to choose a person
   // personA = random(persons)
   // personB = random(persons)
+  
+// this function will be called taking the random person selected
+  // depthAFinder(personA)
+  // depthBFinder(personB)
+  
+// this will make the array reversed in the console
+  // personsA.reverse()
+  // personsB.reverse()
+
+//Prints out the whole array
+  // console.log(personsA)
+  // console.log(personsB)
+  
+//the value that will hold what is the common ancestor
+  // commonAncestor = personsA[findCommonAncestor(0)]
+  
+//Calculates the difference between each depth
+  // depthA = 0 + commonAncestor
+  // depthB = 0 + commonAncestor
+  // difference = depthA - depthB
+  
+//gets called to find the relationship of each person
+  // findDepth()
+  
+//create recursive function to create the array for person A until the parent is undefined
+// let parent = person.parent
+//  if(parent != undefined)
+//  personsA.push(person)
+//    depthAFinder(parent)
+
+// recursive function for personB
+// let parent = person.parent
+//  if(parent != undefined)
+//  personsB.push(person)
+//  depthAFinder(parent)
+
+//create a function findCommonAncestor()
+// if(personsA[personsA.length - 1].name == personsB[personsB.length - 1].name) 
+//    return (personsA.length - 1)  
+//  if (personsA[i] == personsB[i]) 
+//    return findCommonAncestor(i + 1)
+//  else {
+//    return i - 1
+
+//create function to find the relation of eahc person
+//  if (personA.parent == personB.parent) 
+//    (personA.name + ' and ' + personB.name + ' are siblings or the same person')
+
+
+
+
+  
+  
+  
+
   
  
  
